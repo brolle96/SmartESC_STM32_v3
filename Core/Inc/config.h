@@ -54,7 +54,7 @@
 // motor current limits for invividual modes in mA
 #define PH_CURRENT_MAX_ECO 5000
 #define PH_CURRENT_MAX_NORMAL 9000
-#define PH_CURRENT_MAX_SPORT 14000
+#define PH_CURRENT_MAX_SPORT 20000
 
 // motor current limit for regen in mA
 #define REGEN_CURRENT 20000
@@ -63,12 +63,12 @@
 #define FW_CURRENT_MAX 18000 //max id
 
 // maximum battery currents in mA
-#define BATTERYCURRENT_MAX 8000
+#define BATTERYCURRENT_MAX 10000
 #define REGEN_CURRENT_MAX 10000
 
 // battery voltage limits in mV
-#define BATTERYVOLTAGE_MIN 33000
-#define BATTERYVOLTAGE_MAX 42000
+#define BATTERYVOLTAGE_MIN 40000
+#define BATTERYVOLTAGE_MAX 58800
 
 
 // motor spinning direction
